@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF323525-E9E5-484C-A743-984C449F1B63}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FormulariosJardin</RootNamespace>
+    <AssemblyName>FormulariosJardin</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAdministrativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdministrativo.Designer.cs">
+      <DependentUpon>FrmAdministrativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlumno.Designer.cs">
+      <DependentUpon>FrmAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAula.Designer.cs">
+      <DependentUpon>FrmAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDocente.Designer.cs">
+      <DependentUpon>FrmDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.Designer.cs">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersona.Designer.cs">
+      <DependentUpon>FrmPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecaudacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecaudacion.Designer.cs">
+      <DependentUpon>FrmRecaudacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportesResponsables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportesResponsables.Designer.cs">
+      <DependentUpon>FrmReportesResponsables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResponsable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmResponsable.Designer.cs">
+      <DependentUpon>FrmResponsable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSueldos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSueldos.Designer.cs">
+      <DependentUpon>FrmSueldos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVideos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVideos.Designer.cs">
+      <DependentUpon>FrmVideos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAdministrativo.resx">
+      <DependentUpon>FrmAdministrativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlumno.resx">
+      <DependentUpon>FrmAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAula.resx">
+      <DependentUpon>FrmAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDocente.resx">
+      <DependentUpon>FrmDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.aa.resx">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersona.resx">
+      <DependentUpon>FrmPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportesResponsables.resx">
+      <DependentUpon>FrmReportesResponsables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmResponsable.resx">
+      <DependentUpon>FrmResponsable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSueldos.resx">
+      <DependentUpon>FrmSueldos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVideos.resx">
+      <DependentUpon>FrmVideos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadesJardin\EntidadesJardin.csproj">
+      <Project>{458ff7d0-7d9c-433d-9219-70d4b22460d0}</Project>
+      <Name>EntidadesJardin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

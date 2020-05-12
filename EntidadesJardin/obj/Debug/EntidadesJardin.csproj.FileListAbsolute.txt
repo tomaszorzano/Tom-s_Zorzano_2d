@@ -1,0 +1,6 @@
+C:\Users\Camila\source\repos\Zorzano.Tomás.2D\EntidadesJardin\bin\Debug\EntidadesJardin.dll
+C:\Users\Camila\source\repos\Zorzano.Tomás.2D\EntidadesJardin\bin\Debug\EntidadesJardin.pdb
+C:\Users\Camila\source\repos\Zorzano.Tomás.2D\EntidadesJardin\obj\Debug\EntidadesJardin.csproj.CoreCompileInputs.cache
+C:\Users\Camila\source\repos\Zorzano.Tomás.2D\EntidadesJardin\obj\Debug\EntidadesJardin.dll
+C:\Users\Camila\source\repos\Zorzano.Tomás.2D\EntidadesJardin\obj\Debug\EntidadesJardin.pdb
+C:\Users\Camila\source\repos\Zorzano.Tomás.2D\EntidadesJardin\obj\Debug\EntidadesJardin.csprojAssemblyReference.cache
